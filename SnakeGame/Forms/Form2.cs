@@ -138,9 +138,9 @@ namespace SnakeGame.Forms
 
         private void LoadEvents()
         {
-            this.GameTimer.Tick += new System.EventHandler(this.GameTimer_Tick);
-            this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form2_Paint);
-            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form2_KeyDown);
+           GameTimer.Tick += GameTimer_Tick;
+           Paint += Form2_Paint;
+           KeyDown += Form2_KeyDown;
         }
 
         private void ChangeSizeOnForm()

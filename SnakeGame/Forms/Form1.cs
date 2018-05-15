@@ -41,6 +41,7 @@ namespace SnakeGame
 
             if (e.KeyCode == Keys.Escape)
             {
+                this.Close();
             }
         }
     }
